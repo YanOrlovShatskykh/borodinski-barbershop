@@ -15,6 +15,15 @@ body {
     background-repeat: no-repeat;
 }
 
+.inner-page {
+    color: #000000;
+
+    background-color: #f8f5f2;
+    background-image: url("../img/index-section-pattern-bg.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
 a {
     text-decoration: none;
 }
@@ -160,6 +169,133 @@ a {
 
 .social-content a {
     color: #ffffff;
+}
+
+
+/* inner-page-title */
+
+.page-title {
+    color: #000000;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.breadcrumbs a {
+    color: #000000;
+}
+
+.breadcrumbs-current {
+    color: #aba9a7;
+}
+
+.title-promo {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.product-photos img {
+    box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+}
+
+.product-photo-preview {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.include-title {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.include-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.inner-page-title {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.promo-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.prices table {
+    border-collapse: collapse;
+}
+
+.prices td {
+    border: 2px solid #000101;
+}
+
+.filter fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.filter legend {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.filter ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.filter-option:hover {
+    color: #663d15;
+}
+
+.catalog-list {
+    list-style: none;
+}
+
+.catalog-category {
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: none;
+}
+
+.catalog-item-title {
+    color: #000000;
+}
+
+.catalog-item img {
+    width: 220px;
+    height: 165px;
+
+    box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+}
+
+.pagination-list {
+    list-style: none;
+}
+
+.pagination-item a {
+    color: #ffffff;
+}
+
+.pagination-item a:hover {
+    color: #663d15;
 }
 
 .modal {
