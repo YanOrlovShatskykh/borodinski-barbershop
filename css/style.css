@@ -381,12 +381,6 @@ a {
     color: #aba9a7;
 }
 
-.title-promo {
-    font-size: 48px;
-    line-height: 48px;
-    text-align: center;
-}
-
 .columns {
     display: flex;
     justify-content: space-between;
@@ -525,16 +519,77 @@ a {
 
 /* inner-page price */
 
+.title-promo {
+    margin: 0;
+    margin-bottom: 70px;
+
+    text-align: center;
+}
+
+.title-promo b {
+    position: relative;
+    padding: 0 25px;
+
+    font-size: 48px;
+    line-height: 48px;
+    background-image: url(/img/index-section-pattern-bg.jpg);
+    
+}
+
+.title-promo::before {
+    content: "";
+    position: relative;
+    top: 24px;
+    display: block;
+    width: 940px;
+    height: 2px;
+        
+    background-color: #000000;
+}
+
+.promo {
+    width: 460px;
+    margin-bottom: 58px;
+}
+
 .inner-page-title {
+    margin: 0;
+    margin-bottom: 30px;
+
     font-size: 24px;
     line-height: 30px;
 }
 
 .promo-list {
     margin: 0;
+    margin-top: -10px;
     padding: 0;
 
     list-style: none;
+}
+
+.promo-list li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 7px;
+    padding-left: 20px;
+}
+
+.promo-list li::before {
+    content: "";
+    position: relative;
+    left: -20px;
+    top: 16px;
+    display: block;
+    width: 7px;
+    height: 7px;
+
+    background-color: #000000;
+    transform: rotate(45deg);
+}
+
+.prices {
+    width: 460px;
 }
 
 .prices table {
@@ -542,8 +597,24 @@ a {
 }
 
 .prices td {
+    width: 227px;
+    padding: 10px 17px;
     border: 2px solid #000101;
 }
+
+.about-us {
+    margin-bottom: 80px;
+}
+
+.about-us .left-column,
+.about-us .right-column {
+    margin: 0;
+    width: 380px;
+}
+
+
+
+
 
 .filter fieldset {
     margin: 0;
