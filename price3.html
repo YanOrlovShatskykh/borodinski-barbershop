@@ -1,102 +1,107 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Барбершоп "Бородинский"</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie-edge">
+      <title>Стоимость услуг</title>
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body class="inner-page">
-    
+
     <header class="main-header">
-      
-      <nav class="main-navigation container">
 
-        <a class="main-header-logo">
-          <img src="./img/header-logo.svg" width="111" height="24" alt="Логотип барбершопа">
-        </a>
+      <nav class="main-navigation">
+        <div class="main-navigation-wrapper">
+          <div class="container">
 
-        <ul class="site-navigation">
-          <li>
-            <a href="#">Информация</a>
-          </li>
-          <li>
-            <a href="#">Новости</a>
-          </li>
-          <li>
-            <a href="price.html">Прайс-лист</a>
-          </li>
-          <li>
-            <a href="shop.html">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-    
-        <ul class="user-navigation">
-          <li>
-            <a class="login-link" href="login.html">Вход</a>
-          </li>
-        </ul>
-      </nav>      
+            <a class="main-header-logo" href="index.html">
+              <img src="img/header-logo.svg" width="111" height="24" alt="Логотип барбершопа">
+            </a>
+
+            <ul class="site-navigation">
+              <li>
+                <a href="#">Информация</a>
+              </li>
+              <li>
+                <a href="#">Новости</a>
+              </li>
+              <li class="site-navigation-current">
+                <a href="#">Прайс-лист</a>
+              </li>
+              <li>
+                <a href="shop.html">Магазин</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+
+            <ul class="user-navigation">
+              <li><a class="login-link" href="#">Вход</a></li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main class="container">
+      <h1 class="page-title">Прайс-лист</h1>
+      <ul class="breadcrumbs">
+        <li><a href="">Главная</a></li>
+        <li class="breadcrumbs-current">Прайс-лист</li>
+      </ul>
+      <p class="title-promo">
+        <b>Истинно мужская классика</b>
+      </p>
 
-      <div class="inner-page-container">
-        <h1 class="page-title">Прайс-лист</h1>
-        <ul class="breadcrumbs">
-          <li><a href="">Главная</a></li>
-          <li class="breadcrumbs-current">Прайс-лист</li>
-        </ul>
+      <div class="columns">
+        <section class="promo">
+          <h3 class="inner-page-title">Мы используем только <br> лучшие средства:</h3>
+          <ul class="promo-list">
+            <li>baxter of calofornia</li>
+            <li>mr natty</li>
+            <li>suavecito</li>
+            <li>malin+goetz</li>
+          </ul>
+        </section>
+  
+        <section class="prices">
+          <h3 class="inner-page-title">Цены на услуги <br> наших мастеров:</h3>
+          <table>
+            <tr>
+              <td>Стрижка</td>
+              <td>1500 р.</td>
+            </tr>
+            <tr>
+              <td>Стрижка бороды</td>
+              <td>500 р.</td>
+            </tr>
+            <tr>
+              <td>Накрутка усов</td>
+              <td>350 р.</td>
+            </tr>
+          </table>
+        </section>
       </div>
 
-      <section class="inner-content">
-        
-        
-          <h2 class="big-heading">Истинно мужская классика</h2>
-                
-        <h2>Мы используем только лучшие средства:</h2>
-        <ul>
-          <li>baxter of calofornia</li>
-          <li>mr natty</li>
-          <li>suavecito</li>
-          <li>malin+goetz</li>
-        </ul>
-        
-        <h2>Цены на услуги наших мастеров:</h2>
-        <table>
-          <tr>
-            <td>Стрижка</td>
-            <td>1500 р.</td>
-          </tr>
-          <tr>
-            <td>Стрижка бороды</td>
-            <td>500 р.</td>
-          </tr>
-          <tr>
-            <td>Накрутка усов</td>
-            <td>350 р.</td>
-          </tr>
-        </table>
-
-        <h2>Несколько слов о нас:</h2>
-        <p>
-          Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
-        </p>
-        <p>
-          Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
-        </p>
-
+      <section class="about-us">
+        <h3 class="inner-page-title">Несколько слов о нас:</h3>
+        <div class="columns">
+          <p class="left-column">
+            Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
+          </p>
+          <p class="right-column">
+            Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+          </p>  
+        </div>
       </section>
-  
+      
     </main>
-    
 
     <footer class="main-footer">
       <div class="container">
@@ -137,7 +142,7 @@
 
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
-      <p class="modal-description">Ведите пожалуйста свой логин и пароль</p>
+      <p>Ведите пожалуйста свой логин и пароль</p>
       <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label class="visually-hidden" for="user-login">Логин</label>
@@ -159,16 +164,5 @@
       </form>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
-
-    <section class="modal modal-map">
-      <h2 class="visually-hidden">Как до нас добраться?</h2>
-      <p>
-        <img src="img/index-map.jpg" width="766" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
-      </p>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
-
-    <div class="modal-overlay"></div>
-
   </body>
 </html>
